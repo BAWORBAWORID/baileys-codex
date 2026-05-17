@@ -1,4 +1,4 @@
-interface OrderedDictionary<T> {
+export interface OrderedDictionary<T> {
 	array: T[]
 	get: (id: string) => T | undefined
 	upsert: (item: T, mode: 'append' | 'prepend') => void
