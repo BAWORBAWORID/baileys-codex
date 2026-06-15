@@ -1,1 +1,0 @@
-export { default as makeInMemoryStore } from './make-in-memory-store.js'
